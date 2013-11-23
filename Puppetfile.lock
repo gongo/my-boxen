@@ -9,6 +9,11 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.0.0)
@@ -54,6 +59,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-packer
+  specs:
+    packer (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.0.2)
@@ -96,6 +106,7 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.3.4)
   dnsmasq (= 1.0.0)
+  emacs (= 1.1.0)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
@@ -106,6 +117,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
+  packer (= 1.1.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
