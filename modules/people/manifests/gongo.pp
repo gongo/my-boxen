@@ -1,11 +1,11 @@
 class people::gongo {
   include emacs
   include packer
-  include phantomjs
+  include phantomjs::1_9_0
 
   git::config::global {
     'user.name':  value  => 'Wataru MIYAGUNI';
-    'user.email': value  => 'turnt@example.com';
+    'user.email': value  => 'gonngo@gmail.com';
 
     'alias.st':   value  => 'status -sb';
     'alias.co':   value  => 'checkout';
@@ -36,6 +36,7 @@ class people::gongo {
     'mercurial',
     'mplayer',
     'nkf',
+    'readline',
     'ssh-copy-id',
     'the_silver_searcher',
     'tmux',
